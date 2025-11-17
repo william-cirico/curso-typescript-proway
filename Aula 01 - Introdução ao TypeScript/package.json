@@ -1,0 +1,15 @@
+{
+  "name": "aula-01",
+  "version": "1.0.0",
+  "description": "- [ ] O que é o TypeScript\r - [ ] TypeScript vs JavaScript\r - [ ] Vantagens e desvantagens\r - [ ] Histórico e evolução da linguagem\r - [ ] Sistemas e frameworks que utilizam TypeScript\r - [ ] Preparando o ambiente de desenvolvimento\r - [ ] Compilação e execução\r - [ ] Fundamentos da linguagem\r    - Declaração de variáveis\r    - Tipos primitivos\r    - Inferência de tipos\r    - Funções básicas",
+  "license": "ISC",
+  "author": "William Círico",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
