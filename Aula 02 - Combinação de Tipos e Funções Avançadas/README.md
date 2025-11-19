@@ -30,11 +30,15 @@ Crie uma função `calcularFrete` que:
 Crie um tipo `Operacao` que representa uma função que recebe diversos números e retorna um número.
 Crie duas funções `subtrair` e `dividir` que usam esse tipo.
 
+---
+
 ### **3) Função como tipo para validar dados:**
 Crie um tipo `Validador = (valor: string) => boolean`.
 Depois:
 - Crie funções `validarEmail` e `validarSenha` que respeitam esse tipo
 - Crie uma função `rodarValidacao(valor: string, fn: Validador): boolean` que apenas chama o callback e retorna o resultado.
+
+---
 
 ### **4) Callback em lista de números:**
 Crie uma função `aplicarEmNumeros(valores: number[], fn: (n: number) => number): number[]` que aplica a função a cada número e retorna um novo array.
@@ -44,10 +48,13 @@ Exemplo esperado:
 aplicarEmNumeros([1, 2, 3], n => n * 2) // [2, 4, 6]
 ```
 
+---
+
 ### **5) Function overloading para buscar usuário:**
 Implemente `buscarUsuario` com overloading:
 - `buscarUsuario(id: number): string` -> retorna `"Usuário com id X"`
 - `buscarUsuario(email: string): string` -> retorna `"Usuário com email Y"`
+
 ---
 
 ## Exercícios sobre union types
@@ -81,11 +88,14 @@ Crie a função `processarDados(d: Dados)` que:
 - se for string -> retorna o tamanho da string
 - se for number[] -> retorna a soma dos valores
 
+---
+
 ### **9) Intersection type para item de estoque:**
 Crie: 
 - Um tipo `Item` para salvar informações de um item do estoque.
 - Um tipo `Auditavel` para salvar informações de auditoria do item.
 Utilize a intersecção para criar um `ItemAuditavel` e mostrar uma mensagem mostrando uma propriedade oriunda de cada tipo.
+
 ---
 
 ## Exercícios sobre type casting
@@ -105,5 +115,3 @@ No TypeScript:
 - decrementar → diminui o contador e atualiza o <p>
 - resetar → volta para 0
 - Crie uma função `atualizarTela(fn: (valorAtual: number) => number)` que recebe um callback para transformar o valor e já atualiza o DOM (ou seja, usa callback para controlar o contador).
-
----
