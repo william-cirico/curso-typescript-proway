@@ -20,4 +20,3 @@ function rodarValidacao(valor: string, fn: Validador): boolean {
 
 console.log(rodarValidacao("will@email.com", validarEmail));
 console.log(rodarValidacao("12345678", validarSenha));
-
