@@ -24,5 +24,11 @@
     "noUnusedParameters": true,    
     "noFallthroughCasesInSwitch": true,
     "noPropertyAccessFromIndexSignature": true,
+    "paths": {
+      "@utils/*": ["./src/01-modulos/utils/*"]
+    },
+    // Decorators
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }
